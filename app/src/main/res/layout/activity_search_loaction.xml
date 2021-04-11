@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".SearchLocation">
+
+    <EditText
+        android:id="@+id/searchCity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/input_background"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:cursorVisible="false"
+        android:hint="Enter city name"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/white"
+        android:imeOptions="actionGo"
+         />
+</RelativeLayout>
